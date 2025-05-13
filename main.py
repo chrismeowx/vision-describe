@@ -8,7 +8,7 @@ import speech_recognition as sr
 from ultralytics import YOLO
 from gtts import gTTS
 
-openai.api_key = xxxx
+openai.api_key = "xxxxx" # enter your own api key :)
 
 def chatgpt(prompt):
     response = openai.ChatCompletion.create(
